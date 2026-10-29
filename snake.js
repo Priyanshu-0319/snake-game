@@ -1,9 +1,9 @@
 const canvas = document.getElementById('gameCanvas');
 const ctx = canvas.getContext('2d');
 
-const canvasWidth = 300;
-const canvasHeight = 300;
-const numberOfCells = 25; // Number of cells on the canvas
+const canvasWidth = 400;
+const canvasHeight = 400;
+const numberOfCells = 20; // Number of cells on the canvas
 const cellSize = Math.floor(canvasWidth / numberOfCells); // Calculate cell size
 const OFFSET = 0; // You can adjust this as needed
 
